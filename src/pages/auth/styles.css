@@ -55,3 +55,26 @@
     box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.04), 0 1px 1px rgba(0, 0, 0, 0.25);
     cursor: not-allowed;
   }
+
+  /* Responsive Design */
+@media (max-width: 768px) {
+  .login-page p {
+    font-size: 40px; /* Reduce font size on smaller screens */
+  }
+  .login-with-google-btn {
+    font-size: 20px; /* Adjust button font size */
+    padding: 10px 14px; /* Adjust padding */
+    background-position: 10px 9px; /* Adjust icon position */
+  }
+}
+
+@media (max-width: 480px) {
+  .login-page p {
+    font-size: 30px; /* Further reduce font size on very small screens */
+  }
+  .login-with-google-btn {
+    font-size: 18px; /* Further adjust button font size */
+    padding: 8px 12px; /* Adjust padding */
+    background-position: 8px 8px; /* Adjust icon position */
+  }
+}
